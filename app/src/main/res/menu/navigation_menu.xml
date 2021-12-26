@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/nav_account"
+        android:title="Mon Compte"
+        android:icon="@drawable/ic_baseline_account_circle_24"></item>
+
+    <item android:id="@+id/nav_client"
+        android:title="List des clients"
+        android:icon="@drawable/ic_baseline_view_list_24"
+        app:showAsAction="always"></item>
+
+
+    <item android:id="@+id/nav_fournisseur"
+        android:title="List des fournisseurs"
+        android:icon="@drawable/ic_baseline_featured_play_list_24"></item>
+
+
+</menu>
