@@ -93,6 +93,7 @@ public class FournisseurActivity extends AppCompatActivity{
             @Override
             protected void onBindViewHolder(@NonNull FournisseurHolder holder, int position, @NonNull Fournisseur model) {
                 holder.setView(getApplication(),model.getName(),model.getID());
+                holder.position = position;
                 System.out.println(model.getID());
 
             }

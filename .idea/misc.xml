@@ -5,8 +5,15 @@
       <map>
         <entry key="..\:/ASM/management/app/src/main/res/layout/activity_client.xml" value="0.12708333333333333" />
         <entry key="..\:/ASM/management/app/src/main/res/layout/activity_details.xml" value="0.25" />
+        <entry key="..\:/ASM/management/app/src/main/res/layout/activity_details_fournisseur.xml" value="0.25" />
+        <entry key="..\:/ASM/management/app/src/main/res/layout/activity_fournisseur.xml" value="0.25" />
+        <entry key="..\:/ASM/management/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/ASM/management/app/src/main/res/layout/activity_reset_password.xml" value="0.25" />
         <entry key="..\:/ASM/management/app/src/main/res/layout/client_data_activity.xml" value="0.264" />
         <entry key="..\:/ASM/management/app/src/main/res/layout/details_data_activity.xml" value="0.18478260869565216" />
+        <entry key="..\:/ASM/management/app/src/main/res/layout/fourdetails_data_activity.xml" value="0.25" />
+        <entry key="..\:/ASM/management/app/src/main/res/layout/fournisseur_data_activity.xml" value="0.25" />
+        <entry key="..\:/ASM/management/app/src/main/res/layout/fragment_settings.xml" value="0.25" />
         <entry key="..\:/Management/app/src/main/res/drawable-v24/gradiant.xml" value="0.1" />
         <entry key="..\:/Management/app/src/main/res/layout/activity_fournisseur.xml" value="0.17300724637681159" />
         <entry key="..\:/Management/app/src/main/res/layout/activity_login.xml" value="0.17300724637681159" />

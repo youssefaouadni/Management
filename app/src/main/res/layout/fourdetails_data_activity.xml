@@ -2,7 +2,7 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    app:cardCornerRadius="3dp"
+    app:cardCornerRadius="4dp"
     app:cardUseCompatPadding="true"
     app:cardBackgroundColor="@android:color/white"
     android:layout_width="match_parent"
@@ -19,12 +19,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nom du fournisseur:"
+                android:text="Fournisseur:"
                 android:textSize="20sp"
                 android:layout_margin="10dp"/>
 
             <TextView
-                android:id="@+id/FournisseurName_tv"
+                android:id="@+id/Fournisseur_tv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
@@ -39,27 +39,40 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ID:"
+                android:text="Date Echeance:"
                 android:textSize="20sp"
                 android:layout_margin="10dp"/>
 
             <TextView
-                android:id="@+id/Categoryfour_tv"
+                android:id="@+id/Echance"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:translationY="10sp" />
+
+
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/FournisseurButton"
-                android:text="voir plus"/>
-        </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Montant A payé:"
+                android:textSize="20sp"
+                android:layout_margin="10dp"/>
 
+            <TextView
+                android:id="@+id/MTAPaye"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:translationY="10sp" />
+
+
+        </LinearLayout>
     </LinearLayout>
+
+
 </androidx.cardview.widget.CardView>

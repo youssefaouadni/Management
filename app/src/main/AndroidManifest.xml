@@ -13,6 +13,7 @@
         <activity android:name=".FournisseurActivity"/>
         <activity android:name=".resetPassword"/>
         <activity android:name=".ClientActivity"/>
+        <activity android:name=".FournisseurDetailsActivity"/>
         <activity
             android:name=".LoginActivity"
             android:exported="true">
