@@ -7,6 +7,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -91,7 +92,7 @@ public class FournisseurActivity extends AppCompatActivity{
         FirebaseRecyclerOptions<Fournisseur> firebaseRecyclerOptions = new FirebaseRecyclerOptions.Builder<Fournisseur>().setQuery(reference,Fournisseur.class).build();
         FirebaseRecyclerAdapter<Fournisseur,FournisseurHolder> firebaseRecyclerAdapter_fournisseur = new FirebaseRecyclerAdapter<Fournisseur, FournisseurHolder>(firebaseRecyclerOptions) {
             @Override
-            protected void onBindViewHolder(@NonNull FournisseurHolder holder, int position, @NonNull Fournisseur model) {
+            protected void onBindViewHolder(@NonNull FournisseurHolder holder, @SuppressLint("RecyclerView") int position, @NonNull Fournisseur model) {
                 holder.setView(getApplication(),model.getName(),model.getID());
                 holder.position = position;
                 System.out.println(model.getID());
